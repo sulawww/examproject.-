@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню Ресторан Michelin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .menu-section {
+            padding: 60px 0;
+        }
+        .menu-section h3 {
+            margin-top: 20px;
+        }
+        .menu-section img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .menu-section ul {
+            padding-left: 0;
+        }
+        .menu-section li {
+            list-style: none;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .navbar {
+            margin-bottom: 30px;
+        }
+        footer {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Ресторан Michelin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">О нас</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="menu.html">Меню</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Галерея</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Section -->
+    <div class="container menu-section">
+        <h2 class="text-center">Меню</h2>
+        <p class="text-center">Насладитесь широким выбором блюд, приготовленных с любовью.</p>
+        <div class="row mt-4">
+            <!-- Закуски -->
+            <div class="col-md-4 text-center">
+                <h3>Закуски</h3>
+                <ul class="list-unstyled">
+                    <li>Креветки под чесночным соусом</li>
+                    <li>Салат "Цезарь"</li>
+                    <li>Карпаччо из говядины</li>
+                </ul>
+            </div>
+            <!-- Основные блюда -->
+            <div class="col-md-4 text-center">
+                <h3>Основные блюда</h3>
+                <ul class="list-unstyled">
+                    <li>Стейк из мраморной говядины</li>
+                    <li>Ризотто с белыми грибами</li>
+                    <li>Филе лосося с овощами на гриле</li>
+                </ul>
+            </div>
+            <!-- Десерты -->
+            <div class="col-md-4 text-center">
+                <h3>Десерты</h3>
+                <ul class="list-unstyled">
+                    <li>Тирамису</li>
+                    <li>Мусс из тёмного шоколада</li>
+                    <li>Сорбет из манго</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <p>&copy; 2024 5-звездочный ресторан. Все права защищены.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
